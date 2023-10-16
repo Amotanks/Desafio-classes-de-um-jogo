@@ -6,8 +6,8 @@ public class Jogo {
     private String tipo;
     
     public static void main(String[] args) {
-      Jogo jogador1 = new Jogo("Aragorn", 30, "guerreiro");
-        Jogo jogador2 = new Jogo("Gandalf", 60, "mago");
+      Jogo jogador1 = new Jogo("Cleber", 30, "guerreiro");
+        Jogo jogador2 = new Jogo("Jorge", 40, "mago");
         jogador1.atacar();
         jogador2.atacar();
     }
